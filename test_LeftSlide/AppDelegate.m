@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LeftViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    self.mainTabBaeController = [[BaseTabBarController alloc] init];
+    
+    LeftViewController *leftVC = [[LeftViewController alloc] init];
+    self.leftSlideVC = [[LeftSlideViewController alloc] initWithLeftView:leftVC andMainView:_mainTabBaeController];
+    
+    self.window.rootViewController = self.leftSlideVC;
+    
+    
     return YES;
 }
 

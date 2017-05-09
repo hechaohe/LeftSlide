@@ -7,11 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LeftSlideViewController.h"
+#import "BaseTabBarController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+
+@property (strong,nonatomic) LeftSlideViewController *leftSlideVC;
+@property (nonatomic,strong) BaseTabBarController *mainTabBaeController;
 
 @end
 

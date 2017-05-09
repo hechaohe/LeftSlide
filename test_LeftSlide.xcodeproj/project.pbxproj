@@ -15,6 +15,15 @@
 		4728F93E1EA1C5BF0093D70C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4728F93C1EA1C5BF0093D70C /* LaunchScreen.storyboard */; };
 		4728F9491EA1C5BF0093D70C /* test_LeftSlideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4728F9481EA1C5BF0093D70C /* test_LeftSlideTests.m */; };
 		4728F9541EA1C5BF0093D70C /* test_LeftSlideUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4728F9531EA1C5BF0093D70C /* test_LeftSlideUITests.m */; };
+		473379F81EA4502300C58F8D /* LeftSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 473379F51EA4502300C58F8D /* LeftSlideViewController.m */; };
+		473379F91EA4502300C58F8D /* UIView_extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 473379F71EA4502300C58F8D /* UIView_extra.m */; };
+		473379FC1EA450E500C58F8D /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 473379FB1EA450E500C58F8D /* BaseTabBarController.m */; };
+		47337A001EA4525A00C58F8D /* AAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 473379FE1EA4525A00C58F8D /* AAViewController.m */; };
+		47337A011EA4525A00C58F8D /* AAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 473379FF1EA4525A00C58F8D /* AAViewController.xib */; };
+		47337A041EA4527300C58F8D /* BBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47337A031EA4527300C58F8D /* BBViewController.m */; };
+		47337A071EA4527C00C58F8D /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47337A061EA4527C00C58F8D /* CCViewController.m */; };
+		47337A0D1EA45ACF00C58F8D /* BaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47337A0C1EA45ACF00C58F8D /* BaseNavController.m */; };
+		47337A101EA4677000C58F8D /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47337A0F1EA4677000C58F8D /* LeftViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,23 @@
 		4728F94F1EA1C5BF0093D70C /* test_LeftSlideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_LeftSlideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4728F9531EA1C5BF0093D70C /* test_LeftSlideUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_LeftSlideUITests.m; sourceTree = "<group>"; };
 		4728F9551EA1C5BF0093D70C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		473379F41EA4502300C58F8D /* LeftSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSlideViewController.h; sourceTree = "<group>"; };
+		473379F51EA4502300C58F8D /* LeftSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSlideViewController.m; sourceTree = "<group>"; };
+		473379F61EA4502300C58F8D /* UIView_extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView_extra.h; sourceTree = "<group>"; };
+		473379F71EA4502300C58F8D /* UIView_extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_extra.m; sourceTree = "<group>"; };
+		473379FA1EA450E500C58F8D /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		473379FB1EA450E500C58F8D /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		473379FD1EA4525A00C58F8D /* AAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAViewController.h; sourceTree = "<group>"; };
+		473379FE1EA4525A00C58F8D /* AAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAViewController.m; sourceTree = "<group>"; };
+		473379FF1EA4525A00C58F8D /* AAViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AAViewController.xib; sourceTree = "<group>"; };
+		47337A021EA4527300C58F8D /* BBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBViewController.h; sourceTree = "<group>"; };
+		47337A031EA4527300C58F8D /* BBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBViewController.m; sourceTree = "<group>"; };
+		47337A051EA4527C00C58F8D /* CCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
+		47337A061EA4527C00C58F8D /* CCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
+		47337A0B1EA45ACF00C58F8D /* BaseNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavController.h; sourceTree = "<group>"; };
+		47337A0C1EA45ACF00C58F8D /* BaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavController.m; sourceTree = "<group>"; };
+		47337A0E1EA4677000C58F8D /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		47337A0F1EA4677000C58F8D /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +127,24 @@
 		4728F92D1EA1C5BF0093D70C /* test_LeftSlide */ = {
 			isa = PBXGroup;
 			children = (
+				473379F31EA4502300C58F8D /* LeftSlideViewController */,
 				4728F9311EA1C5BF0093D70C /* AppDelegate.h */,
 				4728F9321EA1C5BF0093D70C /* AppDelegate.m */,
 				4728F9341EA1C5BF0093D70C /* ViewController.h */,
 				4728F9351EA1C5BF0093D70C /* ViewController.m */,
+				473379FA1EA450E500C58F8D /* BaseTabBarController.h */,
+				473379FB1EA450E500C58F8D /* BaseTabBarController.m */,
+				47337A0B1EA45ACF00C58F8D /* BaseNavController.h */,
+				47337A0C1EA45ACF00C58F8D /* BaseNavController.m */,
+				473379FD1EA4525A00C58F8D /* AAViewController.h */,
+				473379FE1EA4525A00C58F8D /* AAViewController.m */,
+				473379FF1EA4525A00C58F8D /* AAViewController.xib */,
+				47337A021EA4527300C58F8D /* BBViewController.h */,
+				47337A031EA4527300C58F8D /* BBViewController.m */,
+				47337A051EA4527C00C58F8D /* CCViewController.h */,
+				47337A061EA4527C00C58F8D /* CCViewController.m */,
+				47337A0E1EA4677000C58F8D /* LeftViewController.h */,
+				47337A0F1EA4677000C58F8D /* LeftViewController.m */,
 				4728F9371EA1C5BF0093D70C /* Main.storyboard */,
 				4728F93A1EA1C5BF0093D70C /* Assets.xcassets */,
 				4728F93C1EA1C5BF0093D70C /* LaunchScreen.storyboard */,
@@ -138,6 +178,17 @@
 				4728F9551EA1C5BF0093D70C /* Info.plist */,
 			);
 			path = test_LeftSlideUITests;
+			sourceTree = "<group>";
+		};
+		473379F31EA4502300C58F8D /* LeftSlideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				473379F41EA4502300C58F8D /* LeftSlideViewController.h */,
+				473379F51EA4502300C58F8D /* LeftSlideViewController.m */,
+				473379F61EA4502300C58F8D /* UIView_extra.h */,
+				473379F71EA4502300C58F8D /* UIView_extra.m */,
+			);
+			path = LeftSlideViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +258,7 @@
 				TargetAttributes = {
 					4728F92A1EA1C5BF0093D70C = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 94CU8GHULH;
 						ProvisioningStyle = Automatic;
 					};
 					4728F9431EA1C5BF0093D70C = {
@@ -248,6 +300,7 @@
 			files = (
 				4728F93E1EA1C5BF0093D70C /* LaunchScreen.storyboard in Resources */,
 				4728F93B1EA1C5BF0093D70C /* Assets.xcassets in Resources */,
+				47337A011EA4525A00C58F8D /* AAViewController.xib in Resources */,
 				4728F9391EA1C5BF0093D70C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,9 +326,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47337A041EA4527300C58F8D /* BBViewController.m in Sources */,
+				473379F91EA4502300C58F8D /* UIView_extra.m in Sources */,
+				47337A071EA4527C00C58F8D /* CCViewController.m in Sources */,
 				4728F9361EA1C5BF0093D70C /* ViewController.m in Sources */,
 				4728F9331EA1C5BF0093D70C /* AppDelegate.m in Sources */,
+				47337A001EA4525A00C58F8D /* AAViewController.m in Sources */,
+				47337A0D1EA45ACF00C58F8D /* BaseNavController.m in Sources */,
 				4728F9301EA1C5BF0093D70C /* main.m in Sources */,
+				47337A101EA4677000C58F8D /* LeftViewController.m in Sources */,
+				473379FC1EA450E500C58F8D /* BaseTabBarController.m in Sources */,
+				473379F81EA4502300C58F8D /* LeftSlideViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +485,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 94CU8GHULH;
 				INFOPLIST_FILE = test_LeftSlide/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bitbid.test-LeftSlide";
@@ -435,6 +497,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 94CU8GHULH;
 				INFOPLIST_FILE = test_LeftSlide/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bitbid.test-LeftSlide";
@@ -507,6 +570,7 @@
 				4728F95A1EA1C5BF0093D70C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4728F95B1EA1C5BF0093D70C /* Build configuration list for PBXNativeTarget "test_LeftSlideTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +579,7 @@
 				4728F95D1EA1C5BF0093D70C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4728F95E1EA1C5BF0093D70C /* Build configuration list for PBXNativeTarget "test_LeftSlideUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +588,7 @@
 				4728F9601EA1C5BF0093D70C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
